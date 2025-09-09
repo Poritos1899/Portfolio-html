@@ -16,4 +16,12 @@
      -version Control: git and github
 
 6. basic structure of html     
+  head, body
+
+7. basic tags, styling, Debugging
+     -tag?types of tags
+     -attribute
+     -element, content
+     -debugging
+
 
