@@ -1,13 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my  portfolio</title>
 
     </head>
     <body>
-      Wellcome to my portfolio
-    </body>
+           <!-- section:navbar --> 
+          <nav>
+             <ul>
+              <li>
+                <a href="#about">about me</a>
+              </li>
 
+              <li>
+                <a href="#contract">contract me</a>
+              </li>
+
+              <li>
+                <a href="#skills">my skills</a>
+              </li>
+
+              <li>
+                <a href="#project">my projects</a>
+              </li>
+
+             </ul>
+           
+          </nav>
+
+        <!-- section: intro -->
+         <header id="intro">
+           <h1>Poritos-Chandro</h1>
+           <p>Hi, I'm a passionate <em><strong>(web developer + AI integrate)</strong></em> with a knack for creating stunning websites.</p>
+           <a href="https://www.office.com/">
+            <img src="./images/PHOTO.jfif" alt="profile image" height="300"/>
+          </a>
+           
+           <hr />
+         </header>
+
+        <!-- section: about me -->
+          <section id="about">
+            <h2> about me</h2>
+            <p><strong>AI Integrate: </strong>web developer</p>
+            <p>  I am a web developer with a passion for creating dynamic and user-friendly websites. With experience in HTML, CSS, JavaScript,<br />
+               and various web frameworks, I strive to deliver high-quality solutions that meet client needs.</p>
+                <p>My goal is to continuously learn and adapt to the ever-evolving landscape of web development.</p>
+
+          </section>
+          <!--section: table -->
+          
+
+
+        <!-- section: skills --> 
+            <h2> skills</h2>
+            <sectioon id="skills">
+              <table border="1" cellpadding="5" cellspacing="0">`
+             <thead>
+              <tr>
+                <th>technology</th>
+                <th>proficiency</th>
+                </tr>
+             </thead>
+             <tbody>
+            <tr>
+              <td>html</td>
+              <td>css</td>
+            </tr>
+            <tr>
+              <td>javascript</td>
+              <td>react.js</td>
+            </tr>
+            <tr>
+              <td>mongodb</td>
+              <td>express.js</td>
+            </tr>
+           </tbody>
+           </table>
+            </sectioon> 
+         
+        <!--section: project-->     
+            <section id="project">
+              <h3>project</h3>
+              <ol>
+                <li><a href="https://github.com/Poritos1899/Portfolio-html" target="blank">portfolio website</a></li>
+                <li>e-commerce website</li>
+                <li>blog website</li>
+              </ol>
+            </section>
+            
+            
+
+        <!-- section: contract me -->
+            <section id="contract">
+              <h3>contract me</h3>
+               <form>
+                 <div>
+                  <label for="name">name : </label>
+                 <input type ="text" id="name" name="name"
+                  required />
+                </div>
+
+                  <div>
+                    <label for="email">email : </label>
+                 <input type="email" id ="email" name="email" 
+                 required  />
+                 
+                  </div>
+                 
+                  <div>
+                    <label for="message">Message : </label>
+                    <textarea id="message" name="message" rows="4" cols="10"></textarea>
+                 
+                  </div>
+                 
+
+                 <button type="submit">Submit</button>
+                 <button type="reset">Clear</button>
+                 
+                
+               </form>
+
+            
+
+
+        <!-- section: footer -->
+           <footer>
+              <p>copyright reserved by poritos2024</p>
+              <a href="mailto:poritos2024@example.com">Email me</a>
+              <a href="tel:01994423854">call me</a>
+
+           </footer>
+            
+      </body>
 </html>

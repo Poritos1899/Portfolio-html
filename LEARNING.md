@@ -21,7 +21,44 @@
 7. basic tags, styling, Debugging
      -tag?types of tags
      -attribute
+     -comment
      -element, content
      -debugging
 
+8. heading, paragraph, line breaks, horizontal rule, 
+9. semantic html vs nonsementic html
+      semantic tag- header, footer, main, form,table
+      nonsementic tag- div, span
 
+10. Text formating tags
+<p>This is <b>bold</b> text.</p>
+<p>This is <strong>important</strong> text.</p>
+<p>Water formula: H<sub>2</sub>O</p>
+<p>Square: X<sup>2</sup></p>
+11. 
+11. List
+     -order list,
+        <ol type="">
+        <li> </li>
+        </ol>
+     
+      unordered list,
+      <ul>
+      <li> </li>
+      </ul>
+      
+     definition,
+     <dl>
+     <dt></dt>
+     <dd></dd>
+     </dl>
+      nested
+
+12. link and navigation
+    -absolute link vs relative link  
+    -a tag, attributes: href, target, title
+
+13. images
+14. basic table
+15. basic from
+16. deploy
