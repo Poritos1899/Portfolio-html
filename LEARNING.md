@@ -1,5 +1,6 @@
 # HTML Learning
 
+## basic html
 1.How website work
 
 -client -server model
@@ -62,3 +63,13 @@
 14. basic table
 15. basic from
 16. deploy
+
+## Intermediate html
+
+- Meta tag & SEC
+- Adding font-awesome icons and google font
+- advanch table
+- advanced form
+- form data send to your email
+- multimedia
+- html5 Elements

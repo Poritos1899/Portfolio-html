@@ -3,11 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="poritos is a web developer+AI Integrate">
+        <meta name="keywords" content="HTML, CSS, JavaScript, AI, Web Development">
+        <meta name="author" content="Poritos">
+
         <title>my  portfolio</title>
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        
+        <!-- google-fonts-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <style>
+          body
+          {
+            background-color: #f0f0f0
+            ;
+            font-family: "Roboto", sans-serif;
+          }
+        </style>
+
+
 
     </head>
     <body>
            <!-- section:navbar --> 
+         <header>
           <nav>
              <ul>
               <li>
@@ -29,19 +55,18 @@
              </ul>
            
           </nav>
-
-        <!-- section: intro -->
-         <header id="intro">
-           <h1>Poritos-Chandro</h1>
+          h1>Poritos-Chandro</h1>
            <p>Hi, I'm a passionate <em><strong>(web developer + AI integrate)</strong></em> with a knack for creating stunning websites.</p>
            <a href="https://www.office.com/">
-            <img src="./images/PHOTO.jfif" alt="profile image" height="300"/>
+            <img src="./images/pic.jpg" alt="profile image" height="300"/>
           </a>
            
            <hr />
-         </header>
-
-        <!-- section: about me -->
+          </header>
+         
+        
+         <main>
+            <!-- section: about me -->
           <section id="about">
             <h2> about me</h2>
             <p><strong>AI Integrate: </strong>web developer</p>
@@ -50,14 +75,11 @@
                 <p>My goal is to continuously learn and adapt to the ever-evolving landscape of web development.</p>
 
           </section>
-          <!--section: table -->
-          
-
 
         <!-- section: skills --> 
             <h2> skills</h2>
             <sectioon id="skills">
-              <table border="1" cellpadding="5" cellspacing="0">`
+              <table border="1" cellpadding="5" cellspacing="0">
              <thead>
               <tr>
                 <th>technology</th>
@@ -67,20 +89,27 @@
              <tbody>
             <tr>
               <td>html</td>
-              <td>css</td>
+              <td rowspan="2">Expert</td>
             </tr>
             <tr>
               <td>javascript</td>
-              <td>react.js</td>
             </tr>
             <tr>
               <td>mongodb</td>
-              <td>express.js</td>
+              <td>intermediate</td>
             </tr>
            </tbody>
            </table>
+
             </sectioon> 
-         
+               
+            <div>
+              <video>
+                <source src="./assets/.avif" type="video/mp4">
+              </video>
+            </div>
+
+
         <!--section: project-->     
             <section id="project">
               <h3>project</h3>
@@ -96,41 +125,101 @@
         <!-- section: contract me -->
             <section id="contract">
               <h3>contract me</h3>
-               <form>
+               <form action="https://formspree.io/f/xnnbrvvn"
+                  method="POST">
+
                  <div>
                   <label for="name">name : </label>
-                 <input type ="text" id="name" name="name"
+                  <input type ="text" id="name" name="name"
                   required />
                 </div>
 
                   <div>
                     <label for="email">email : </label>
-                 <input type="email" id ="email" name="email" 
-                 required  />
-                 
+                    <input type="email" id ="email" name="email" 
+                  required  />
+                  </div>
+
+                  
+                  <div>
+                    <label for="age">Age</label>
+                    <input type="number" id ="age" name="age" min="17" max="26"
+                  required  />
+                  </div>
+
+                  <div>
+                    <label for="website">Website</label>
+                    <input type="url" id="website" name="website" placeholder="https://example.com" />
+                  </div>
+                   
+                  <div>
+                     <label for="image">Image</label>
+                     <input type="file" id="image" name="image" accept="image/*" />
+
+                  </div>
+                  
+
+                  <div>
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">   
+                      <option value="inquiry">Inquiry</option>      
+                      <option value="job oppertunity">Job Oppertunity</option> 
+                      <option value="feedback">Feedback</option>     
+
+                    </select>
                   </div>
                  
                   <div>
                     <label for="message">Message : </label>
                     <textarea id="message" name="message" rows="4" cols="10"></textarea>
-                 
                   </div>
+        
+                  <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+                  </div> 
+                   
+                  
+                  
                  
-
-                 <button type="submit">Submit</button>
-                 <button type="reset">Clear</button>
-                 
-                
                </form>
 
-            
+            </section>
 
+         </main>
 
-        <!-- section: footer -->
+        
+
+        <!-- footer -->
            <footer>
               <p>copyright reserved by poritos2024</p>
               <a href="mailto:poritos2024@example.com">Email me</a>
               <a href="tel:01994423854">call me</a>
+
+              <h3>Fellow me on social media</h3>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/" target="_blank">
+                     <i class="fa-brands fa-facebook"></i> 
+                     facebook
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/" target="_blank">
+                     <i class="fa-brands fa-linkedin"></i> 
+                     LinkedIn
+                  </a>
+                </li>
+                 <li>
+                  <a href="https://web.telegram.org/a/" target="_blank">
+                     <i class="fa-brands fa-telegram"></i>
+                     Telegram
+                  </a>
+                </li>
+                
+              </ul>
+
+
 
            </footer>
             
