@@ -73,3 +73,4 @@
 - form data send to your email
 - multimedia
 - html5 Elements
+- deploy

@@ -62,23 +62,23 @@
           </a>
            
            <hr />
-          </header>
+         </header>
          
         
          <main>
             <!-- section: about me -->
-          <section id="about">
             <h2> about me</h2>
+            <section id="about">
             <p><strong>AI Integrate: </strong>web developer</p>
             <p>  I am a web developer with a passion for creating dynamic and user-friendly websites. With experience in HTML, CSS, JavaScript,<br />
                and various web frameworks, I strive to deliver high-quality solutions that meet client needs.</p>
                 <p>My goal is to continuously learn and adapt to the ever-evolving landscape of web development.</p>
 
-          </section>
+            </section>
 
         <!-- section: skills --> 
             <h2> skills</h2>
-            <sectioon id="skills">
+            <section id="skills">
               <table border="1" cellpadding="5" cellspacing="0">
              <thead>
               <tr>
@@ -99,25 +99,51 @@
               <td>intermediate</td>
             </tr>
            </tbody>
+
            </table>
 
-            </sectioon> 
-               
             <div>
-              <video>
-                <source src="./assets/.avif" type="video/mp4">
-              </video>
+
+            <h3>Skill Project</h3>
+            <div>
+              <label for="htmlprogress">HTML</label>
+              <progress id="htmlprogress" value="85" max="100">85%</progress>
+            </div>
+            
+            <div>
+              <label for="javascriptprogress">JavaScript</label>
+              <progress id="javascriptprogress" value="70" max="100">70%</progress>
             </div>
 
+            <div>
+              <label for="mongodbprogress">MongoDB</label>
+              <progress id="mongodbprogress" value="80" max="100">80%</progress>
+            </div>
 
-        <!--section: project-->     
+            <div>
+              <video width="320" height="240" controls>
+                <source src="./assets/video/ii.mp4" type="video/mp4">
+                your browser dose not support the video type.
+              </video>
+            </div>
+               
+            </div> 
+
+            <div>
+              <h3>Experience Level</h3>
+              <label for="experience">Experience:</label>
+              <meter id="experience" min="0" max="10" value="4">2years</meter>
+            </div>
+            </section>
+
+        <!--section: project-->
             <section id="project">
               <h3>project</h3>
-              <ol>
+              <ul>
                 <li><a href="https://github.com/Poritos1899/Portfolio-html" target="blank">portfolio website</a></li>
                 <li>e-commerce website</li>
                 <li>blog website</li>
-              </ol>
+              </ul>
             </section>
             
             
@@ -191,13 +217,17 @@
         
 
         <!-- footer -->
-           <footer>
+         <footer>
+         <section>
+           
               <p>copyright reserved by poritos2024</p>
               <a href="mailto:poritos2024@example.com">Email me</a>
               <a href="tel:01994423854">call me</a>
 
               <h3>Fellow me on social media</h3>
-              <ul>
+             
+               <div>
+                <ul>
                 <li>
                   <a href="https://www.facebook.com/" target="_blank">
                      <i class="fa-brands fa-facebook"></i> 
@@ -218,10 +248,19 @@
                 </li>
                 
               </ul>
+               </div> 
+
+               <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14608.039158733322!2d90.36554080826572!3d23.74703030733742!2m3!
+                1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b33cffc3fb%3A0x4a826f475fd312af!2sDhanmondi%2C%20Dhaka%201205!5e0!3m2!1sen!2sbd!4v1757747653069!5m2!1sen!2sbd" 
+                width="250" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Map"></iframe>
+               </div>
+               
+
+             </section>
 
 
-
-           </footer>
+         </footer>
             
       </body>
 </html>
